@@ -23,6 +23,10 @@
     height: 100%;
 }
 
+.profile_thumb > img {
+    width: 80px;
+}
+
 
 .detail{
     /*display: flex;*/
@@ -111,8 +115,10 @@
 }
 
 .contents_container .pic{
+/*
     max-width:300px;
     max-height:300px;
+*/
     overflow:hidden;
     margin-bottom: 18px;
 

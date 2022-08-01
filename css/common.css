@@ -152,7 +152,6 @@ body {
 }
 
 #header .h_inner .logo {
-
 }
 
 #header .h_inner .logo div {
@@ -182,6 +181,10 @@ body {
 #header .h_inner .logo > a {
     display: flex;
     align-items: center;
+}
+
+#header .inner .logo {
+    padding-left: 10px;
 }
 
 #header .search_field {
