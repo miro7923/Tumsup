@@ -70,24 +70,33 @@
     padding: 18px 0;
     font-size: 15px;
     font-weight: 600;
+    line-height: 25px;
 }
 
 
 .detail .middle > li{
-    margin-right: 35px;
+/*    margin-right: 35px;*/ */
+    display: inline-block;
+    padding: 0 10px;
+    text-align: center;
 }
-.detail .about > span{
+
+.inner .about {
+    margin: 5px 10px;
+}
+
+.inner .about > span{
     display:inline-block;
     cursor: pointer;
     position:relative;
 }
 
-.detail .about > span:nth-child(1){
+.inner .about > span:nth-child(1){
     margin-right: 50px;
 }
 
 
-.detail .about > span:after{
+.inner .about > span:after{
     content:'';
     width:0;
     height:1px;
@@ -98,7 +107,7 @@
     background:#dd2d76;
 }
 
-.detail .about > span.on:after{
+.inner .about > span.on:after{
     width:100%;
 }
 
