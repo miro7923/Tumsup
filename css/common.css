@@ -184,7 +184,7 @@ body {
 }
 
 #header .inner .logo {
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 #header .search_field {
@@ -246,7 +246,7 @@ body {
 
 #main_container {
     /*height: 100vh;*/
-    padding-top: 135px;
+    padding-top: 60px;
     display: flex;
     justify-content: center;
     order: 1;
@@ -261,7 +261,7 @@ body {
 
 @media screen and (max-width: 1100px) {
     #main_container {
-        padding-top: 220px;
+/*        padding-top: 220px;*/
     }
 
     #header .h_inner {
@@ -299,7 +299,7 @@ body {
     }
 
     #main_container {
-        padding-top: 181px;
+/*        padding-top: 181px;*/
 
     }
 

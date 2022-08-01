@@ -6,22 +6,28 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
     <!-- Facebook Meta Tags / 페이스북 오픈 그래프 -->
+<!--
     <meta property="og:url" content="http://kindtiger.dothome.co.kr/insta">
     <meta property="og:type" content="website">
     <meta property="og:title" content="instagram">
     <meta property="og:description" content="instagram clone">
     <meta property="og:image" content="http://kindtiger.dothome.co.kr/insta/imgs/instagram.jpeg">
-    .
+-->
+    
     <!-- Twitter Meta Tags / 트위터 -->
+<!--
     <meta name="twitter:card" content="instagram clone">
     <meta name="twitter:title" content="instagram">
     <meta name="twitter:description" content="instagram clone">
     <meta name="twitter:image" content="http://kindtiger.dothome.co.kr/insta/imgs/instagram.jpeg">
+-->
 
     <!-- Google / Search Engine Tags / 구글 검색 엔진 -->
+<!--
     <meta itemprop="name" content="instagram">
     <meta itemprop="description" content="instagram clone">
     <meta itemprop="image" content="http://kindtiger.dothome.co.kr/insta/imgs/instagram.jpeg">
+-->
 
 
     <title>instagram</title>
@@ -46,11 +52,10 @@
 <section id="container">
 
     <header id="header">
-        <section class="h_inner">
+        <section class="inner">
 
             <h1 class="logo">
                 <a href="index.html">
-                    <div class="sprite_insta_icon"></div>
                     <div>
                         <div class="sprite_write_logo"></div>
                     </div>
@@ -69,7 +74,6 @@
 
             <div class="right_icons">
                 <a href="new_post.html"><div class="sprite_camera_icon"></div></a>
-                <a href="login.html"><div class="sprite_compass_icon"></div></a>
                 <a href="follow.html"><div class="sprite_heart_icon_outline"></div></a>
                 <a href="profile.html"><div class="sprite_user_icon_outline"></div></a>
             </div>
@@ -77,12 +81,9 @@
     </header>
 
 
-    <div id="main_container">
-
-        <section class="b_inner">
-
+    <section id="main_container">
+        <div class="inner">
             <div class="contents_box">
-
                 <article class="contents cont01">
                     <header class="top">
                         <div class="user_container">
@@ -90,8 +91,8 @@
                                 <img src="imgs/thumb.jpeg" alt="">
                             </div>
                             <div class="user_name">
-                                <div class="nick_name">KindTiger</div>
-                                <div class="country">Seoul, South Korea</div>
+                                <div class="nick_name m_text">KindTiger</div>
+                                <div class="country s_text">Seoul, South Korea</div>
                             </div>
                         </div>
                         <div class="sprite_more_icon"></div>
@@ -107,65 +108,46 @@
                     <div class="bottom_icons">
                         <div class="left_icons">
                             <div class="heart_btn">
-                                <div class="sprite_heart_icon_outline" data-name="heartbeat"></div>
+                                <div class="sprite_heart_icon_outline" name="39"  data-name="heartbeat"></div>
                             </div>
-                            <div>
-                                <div class="sprite_bubble_icon"></div>
-                            </div>
-                            <div>
-                                <div class="sprite_share_icon"></div>
-                            </div>
+                            <div class="sprite_bubble_icon"></div>
+                            <div class="sprite_share_icon" data-name="share"></div>
                         </div>
-
                         <div class="right_icon">
-                            <div class="sprite_bookmark_outline"></div>
+                            <div class="sprite_bookmark_outline" data-name="bookmark"></div>
                         </div>
                     </div>
 
-                    <div class="count_likes">
+                    <div class="likes m_text">
                         좋아요
-                        <span class="count">2,351</span>
+                        <span id="like-count-39">2,351</span>
+                        <span id="bookmark-count-39"></span>
                         개
                     </div>
 
-                    <div class="commet_container">
-
-                        <div class="commet">
-                            <div class="nick_name">
-                                popo213
-                            </div>
-                            <div>
-                                우와...너무 축하해...!!!
+                    <div class="comment_container">
+                        <div class="comment" id="comment-list-ajax-post37">
+                            <div class="comment-detail">
+                                <div class="nick_name m_text">popo213</div>
+                                <div>우와...너무 축하해...!!!</div>
                             </div>
                         </div>
-
                         <div class="small_heart">
                             <div class="sprite_small_heart_icon_outline"></div>
                         </div>
-
                     </div>
 
                     <div class="timer">1시간 전</div>
 
-                    <div class="commit_field">
+                    <div class="comment_field" id="add-comment-post37">
                         <input type="text" placeholder="댓글달기..">
 
-                        <div class="upload_btn">게시</div>
+                        <div class="upload_btn m_text">게시</div>
                     </div>
-
-
                 </article>
-
-
-
-
-
-
-
             </div>
-
-        </section>
-    </div>
+        </div>
+    </section>
 
 
 </section>
